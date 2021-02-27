@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* *{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* border: 2px solid black;s */
+  background-color: rgb(251, 232, 189);
+  /* font-style: unset; */
+  padding: 20px;
+  height: 100vh;
+}
+h1{
+  font-family: 'Amatic SC', cursive; 
+ /* border: 1px solid black; */
+  font-size: 75px;
+  width: 30%;
+  text-align: center;
+  border: none;
+  margin-top: 0;
+}
+.inputbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  background-color: #dc9f67;
+  /* border: 1px solid rgb(211, 207, 199); */
+  padding: 200px 100px;
+  border-radius: 20px;
+  block-size: auto;
+  padding: 20px 15px;
+  font-family: 'Amatic SC', cursive;  
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 0;
+}
+/* div {
+  border-radius: 5px;
+  background-color: #e91414;
+  padding: 20px;
+} */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  /* border: 1px solid rgb(5, 190, 241); */
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  /* font-family: 'Amatic SC', cursive; */
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #bf5a17;
   color: white;
+  border-radius: 50px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+    border-radius: 20px;
+
+}
+.name,.list{
+  /* border: 1px solid black; */
+  border: none;
+  border-radius: 10px;
+  width: max-content;
+  align-items: center;
+  background-color: bisque;
+  /* font-style: oblique; */
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+margin-top: 0;
+padding: 0;}
+.list{
+  /* border: 1px solid black; */
+  border: none;
+  border-radius: 10px;
+  width: max-content;
+  align-items: center;
+  background-color: bisque;
+  /* font-style: oblique; */
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+margin-top: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .spanname{
+    color: chocolate;
   }
-  to {
-    transform: rotate(360deg);
+  .spanlist{
+    color: coral;
   }
-}
+  form,label{
+    font-size: 30px;
+  }
