@@ -22,14 +22,10 @@ const App = () => {
 	const [newage, setnewage] = useState("");
 	const [college, setcollege] = useState("");
 	const [newcollege, setnewcollege] = useState("");
-	// const [name, setname] = useState("");
-	// const [fullname, setfullname] = useState("");
 	const onSubmit = (event) => {
 		event.preventDefault();
 		alert("You are submitting ");
 		setfullname(name);
-		// event.preventDefault();
-
 		setnewlastname(lastname);
 		setnewage(age);
 		setnewcollege(college);
