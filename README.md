@@ -16,10 +16,9 @@ You will also see any lint errors in the console.
 
 ### About the project
 
-=>After cloning the repository in your local device and Run the app.
-=>It would open a form which would ask the user about his personal information and user can submit the form after filling the information. 
-=>The detials about the user would appear below in the form of a Heading and subheadings dynamically.
+After cloning the repository in your local device and Run the app.
+It would open a form which would ask the user about his personal information and user can submit the form after filling the information. 
+The details about the user would appear below in the form of a Heading and subheadings dynamically.
 
 
 
-                                                **************************************************************************
